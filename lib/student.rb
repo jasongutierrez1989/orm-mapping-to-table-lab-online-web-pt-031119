@@ -40,7 +40,7 @@ class Student
       drop_table
     SQL
 
-    DROP TABLE DB[:conn]
+    DROP TABLE DB[:conn].SELF
   end
   # Remember, you can access your database connection anywhere in this class
   #  with DB[:conn]
