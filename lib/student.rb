@@ -35,6 +35,11 @@ class Student
     student
   end
 
+  def self.drop_table
+    sql = <<- SQL
+      drop_table
+    SQL
+  end
   # Remember, you can access your database connection anywhere in this class
   #  with DB[:conn]
 
